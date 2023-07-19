@@ -4,7 +4,6 @@ Created on Wed Jul 19 10:09:38 2023
 
 @author: Utilisateur
 """
-import pandas as pd
 from cleaning_and_merging import cleaning_and_merging
 import seaborn as sns
 import matplotlib.pyplot as plt 
