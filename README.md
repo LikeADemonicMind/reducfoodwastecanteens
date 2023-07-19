@@ -6,3 +6,5 @@ For this project, I try reducing the food waste for the 2018-2019 school year ta
 
 In the main.py file, you will find only the least to make the model work for the 2018-2019 school year. 
 If you wanna know more about the choices I made for the features or the model I took, I let you navigate between all the different python files. 
+
+Be aware that this is a learning project and more importantly my first one. Everything has to be taken with caution and isn't perfect at all (what's perfection tho). 
