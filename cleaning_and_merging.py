@@ -8,24 +8,25 @@ Created on Wed Jul 19 09:53:40 2023
 #Import of needed librairies
 import pandas as pd
 
-#Reading of csv files
-frequentation = pd.read_csv("frequentation.csv", index_col = "Unnamed: 0")
-menus = pd.read_csv("menus.csv", index_col = "Unnamed: 0")
 
-def cleaning_and_merging(frequentation, menu) :
+
+def cleaning_and_merging() :
     """
     
 
     Parameters
     ----------
-    frequentation : dataframe about frequentation.
-    menu : dataframe about the menu.
+    
 
     Returns
     -------
     df_total : cleaning the dataframes after a univariate analysis (deleting non-sense values and outliers) and then merging the two dataframes by date to have a complete dataframe which allows to make further analysis (bivariate for example).
 
     """
+    #Reading of csv files
+    frequentation = pd.read_csv("frequentation.csv", index_col = "Unnamed: 0")
+    menus = pd.read_csv("menus.csv", index_col = "Unnamed: 0")
+    
     #Cleaning before merging. All choices have been made thanks to 
     #univariate analysis but won't be justified in this file. If you wanna see how
     #they have been made, I let you check the notebook file in main. 

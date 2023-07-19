@@ -8,9 +8,8 @@ import pandas as pd
 from cleaning_and_merging import cleaning_and_merging
 import seaborn as sns
 import matplotlib.pyplot as plt 
-frequentation = pd.read_csv("frequentation.csv", index_col = "Unnamed: 0")
-menus = pd.read_csv("menus.csv", index_col = "Unnamed: 0")
-df_total = cleaning_and_merging(frequentation, menus)
+
+df_total = cleaning_and_merging()
 print(df_total)
 
 
